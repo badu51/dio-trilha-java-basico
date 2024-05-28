@@ -1,5 +1,6 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
+        //variaveis
         double salarioMinimo = 2500;
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;

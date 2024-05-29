@@ -1,5 +1,6 @@
 public class Operadores {
     public static void main(String[] args) {
+    //-----------Concatenações--------------------------------------//
         String nomeCompleto = "LINGUAGEM" + "JAVA";
 
         System.out.println(nomeCompleto);
@@ -23,5 +24,48 @@ public class Operadores {
         System.out.println(numero++);
         System.out.println(++numero);
 
+//-------------OPERADORES TERNÁRIOS---------------------------------//
+
+        int a, b;
+
+        a = 3+3;
+        b = 6;
+
+        String resultado = a==b ?"verdadeiro" : "falso";
+        System.out.println("o valor de a é igual a b? " + resultado);
+
+        int numero1 = 1;
+        int numero2 = 2;
+
+        boolean simNao = numero1 == numero2;
+
+        if(numero1<numero2){
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+        
+        simNao = numero1 != numero2;
+
+        System.out.println("numeroUm é diferente de numeroDois? " + simNao);
+
+        simNao = numero1 > numero2;
+
+        System.out.println("numeroUm é maior do que numeroDois? " + simNao);
+
+        //-----------------OPERADORES LÓGICOS-------------------------------//
+
+        boolean condicao1=true;
+        boolean condicao2 = false;
+
+        if (condicao1 && condicao2){
+            System.out.println("as duas condições são verdadeiras");
+        } 
+        if (condicao1 || condicao2){
+            System.out.println("pelo menos uma condição é falsa");
+        }
+        if (condicao1 && (7>4)){
+            System.out.println("as duas condições são verdadeiras");
+        }
     }
 }

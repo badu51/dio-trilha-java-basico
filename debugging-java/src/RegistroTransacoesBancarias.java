@@ -14,7 +14,7 @@ public class RegistroTransacoesBancarias {
         int quantidadeTransacoes = scanner.nextInt();
 
         // Lista para armazenar as transações
-        List<String> transacoes = new ArrayList<>();
+        //List<String> transacoes = new ArrayList<>();
         
         // Loop para iterar sobre as transações
         for (int i = 1; i <= quantidadeTransacoes; i++) {
